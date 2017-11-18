@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Malcolm in the Middle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+
+	body {margin: 0}
+
+/*smartphone*/
+
+	@media screen and (min-width: 200px) {
+	body {background-image: url(imágenes/wallpaper.jpg); }
+	header {width: 100%; height: 200px; background-color: blanchedalmond; background-image:url(imágenes/HEADERCEL.jpg); background-position: center center; background-size: cover;}
+	aside {width: 100%; height: 200px; float:; margin-top: 20px; font-size: 15px; font-family: 'Funky2'; text-align: center; float: none; line-height: 2,5em;}
+	.subscribe {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	.seemore {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	.feature {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	h1{color:black; object-position: center; margin: 20px;}
+	section {width: 80%; height: 350px; float: left; margin-top: 20px; text-align: center; font-family:"Funky2"; font-size: 20px}
+	iframe {object-position: center}  max-width: 80%; max-height: 150px}
+	article {width: 40%; height: 300px; margin: 10px 2.5% 10px 2.5%; float: left; margin: 30px; padding-top:30px}
+	article.galleries {background-image: url(imágenes/cel1.jpg); background-position: center center; background-repeat: no-repeat}
+	article.characters {background-image: url(imágenes/cel2.jpg); background-position: center center;background-repeat: no-repeat }
+	article.trivia {background-image: url(imágenes/cel3.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat}
+	article.awards {background-image: url(imágenes/cel4.jpg); background-size:cover; background-position: center center; background-repeat: no-repeat}
+
+	
+/*tablet*/	
+	
+	@media screen and (min-width: 768px ) {
+	body {background-color: white; background-image: url(imágenes/wallpaper.jpg); height: auto}
+	header {width: 100%; height: 80px; background-image: url(imágenes/headermitm.jpg)}
+	aside {width: 20%; height: 200px; float: left; margin-top: 20px; font-size: 15px; font-family: 'Funky2'; text-align: center; float: auto; line-height: 2em}
+	.subscribe {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	.seemore {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	.feature {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	iframe.ytb-embed {max-width: 70%;margin: 10px;object-position:center; padding-left: 20px; float:left}
+	section {width: 80%; height: 200px; float: left; text-align: center}
+	article {width: 20%; height: 300px; background-color: cornflowerblue; float: inherit; margin: 15px 2.5% 15px 2.5% }
+	article.galleries {background-image: url(imágenes/tablet1.jpg); background-position: center center; background-repeat: no-repeat}
+	article.characters {background-image: url(imágenes/tablet2.jpg); background-position: center center; background-repeat: no-repeat}
+	article.trivia {background-image: url(imágenes/tablet3.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat}
+	article.awards {background-image: url(imágenes/tablet4.jpg); background-size:cover; background-position: center center;background-repeat:no-repeat}
+
+	
+/*escritorio*/
+
+	@media screen and (min-width: 1024px) {
+	body {background-color: WHITE; background-image: url(imágenes/wallpaper.jpg)}
+	header {width: 100%; height: 300px; background-image: url(imágenes/headermitm.jpg); background-repeat:no-repeat; background-position: center; background-size: cover}
+	aside {width: 20%; height: 350px;  float: left; margin-top: 20px; font-size: 15px; font-family:'Funky2'; text-align: center; float: auto; line-height: 2em;}
+	.subscribe {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	.seemore {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	.feature {background-color: dodgerblue; border: none; color: white; padding: 20px 32px; text-align: center; text-decoration: none; font-size: 16px; margin: 15px 3px; cursor: pointer; font-family:'Funky2'}
+	iframe { align-content: center}
+	h1{color:black; position:inherit; border-right: 20px; border-left: 20px; border-top: 20px; border-bottom: 20px; margin-left: 20px}
+	section {width: 80%; height: 350px; float: left; margin-top: 20px; text-align: center; font-family:"Funky2"; font-size: 20px}
+	article {width: 20%; height: 300px; float: left; margin: 20px 2.5% 20px 2.5%}
+	article.galleries {background-image: url(imágenes/article1.jpg); background-position: center center; font-size: 20px; font-family: 'Roboto Slab', serif; text-align: center; text-emphasis-position: left;}
+	article.characters {background-image: url(imágenes/article2.jpg); background-position: center center; font-size: 20px; font-family: 'Roboto Slab', serif; text-align: center; text-emphasis-position: left;}
+	article.trivia {background-image: url(imágenes/article3.jpg); background-size: cover; background-position: center center; font-size: 20px; font-family: 'Roboto Slab', serif; text-align: center; text-emphasis-position: left;}
+	article.awards {background-image: url(imágenes/article4.jpg); background-size:cover; background-position: center center; font-size: 20px; font-family: 'Roboto Slab', serif; text-align: center; text-emphasis-position: left;}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+</header>
+
+<aside>
+<p><h1>WELCOME, SUCKERS!</h1></p>
+<button class="subscribe">SUBSCRIBE!!!!</button>
+<button class="seemore">LAUGH OUT LOUD</button>
+<button class="feature">NOW ON DVD</button>
+</aside>
+
+<section>
+<p><h1>ONE FAMILY, TWO PARENTS, FIVE KIDS. WHAT COULD GO RIGHT?</h1></p>
+<iframe width="400" height="250" src="https://www.youtube.com/embed/c4CVKbVtTsc" frameborder="0" allowfullscreen>p</iframe>
+<iframe width="400" height="250" src="https://www.youtube.com/embed/PfID_33TL_A" frameborder="0" allowfullscreen></iframe>
+
+</section>
+<a href="#">
+<article class="galleries"></article>
+<a href="#">
+<article class="characters"></article>
+<a href="#">
+<article class="trivia"></article>
+<a href="#">
+<article class="awards"></article>
+
+</body>
+</html>
